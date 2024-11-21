@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/output.css" />
+    <link rel="stylesheet" href="css/input.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav
+      class="flex justify-between items-center p-3 bg-[#047580ff] text-white font-bold lg:text-xl"
+    >
+      <a href="index.html">
+        <img src="public/logo.png" alt="logo locale" class="w-[100px] lg:w-[150px]" />
+      </a>
+      <div class="space-x-3 hidden lg:flex">
+        <a class="hover:underline uppercase" href="index.html">Beranda</a>
+        <a class="hover:underline uppercase" href="paketMenu.html"
+          >Paket Menu</a
+        >
+        <a class="hover:underline uppercase" href="kontak.html">Kontak</a>
+      </div>
+      <div class="hidden lg:block">
+        <h1 class="text-right text-lg">Layanan Pemesanan<br />24 Jam</h1>
+      </div>
+      <button
+        class="space-y-1 rounded border-2 border-white lg:hidden p-1 w-fit"
+        onclick="showMenu()"
+      >
+        <div class="w-6 h-[3px] rounded-full bg-white"></div>
+        <div class="w-6 h-[3px] rounded-full bg-white"></div>
+        <div class="w-6 h-[3px] rounded-full bg-white"></div>
+      </button>
+    </nav>
+    <div
+      id="menu-bar"
+      class="hidden flex-col bg-[#047580ff] text-white border-2 border-white rounded-lg"
+    >
+      <a
+        class="hover:underline uppercase p-3 border-b border-white hover:bg-[#2a6c72] rounded-t-lg"
+        href="#"
+        >Beranda</a
+      >
+      <a
+        class="hover:underline uppercase p-3 border-y border-white hover:bg-[#2a6c72]"
+        href="paketMenu.html"
+        >Paket Menu</a
+      >
+      <a
+        class="hover:underline uppercase p-3 border-t border-white hover:bg-[#2a6c72] rounded-b-lg"
+        href="kontak.html"
+        >Kontak</a
+      >
+    </div>
+  </body>
+</html>
+<script>
+  const menuBar = document.getElementById("menu-bar");
+
+  function showMenu() {
+    if (menuBar.classList.contains("hidden")) {
+      menuBar.classList.remove("hidden");
+      menuBar.classList.add("flex");
+    } else if (menuBar.classList.contains("flex")) {
+      menuBar.classList.add("hidden");
+      menuBar.classList.remove("flex");
+    }
+  }
+</script>
