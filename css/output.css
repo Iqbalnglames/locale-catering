@@ -704,6 +704,10 @@ video {
   height: 78.1dvh;
 }
 
+.h-\[78\.15dvh\] {
+  height: 78.15dvh;
+}
+
 .w-2 {
   width: 0.5rem;
 }
@@ -946,6 +950,18 @@ video {
 
 .bg-\[url\(\'\.\.\/public\/background-kontak\.png\'\)\] {
   background-image: url('../public/background-kontak.png');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/public\/background-web\.png\'\)\] {
+  background-image: url('../../public/background-web.png');
+}
+
+.bg-\[url\(\'\.\.\/images\/background-web\.png\'\)\] {
+  background-image: url('../images/background-web.png');
+}
+
+.bg-\[url\(\'\.\.\/images\/background-kontak\.png\'\)\] {
+  background-image: url('../images/background-kontak.png');
 }
 
 .from-black {

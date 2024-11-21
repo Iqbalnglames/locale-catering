@@ -1,12 +1,12 @@
 const templateNav = document.createElement("template");
 
 templateNav.innerHTML = `
- <style> @import "../css/output.css"; </style>
+ <style> @import "css/output.css"; </style>
    <nav
       class="flex justify-between items-center p-3 bg-[#047580ff] text-white font-bold lg:text-xl"
     >
       <a href="index.html">
-        <img src="../public/logo.png" alt="logo locale" class="w-[100px] lg:w-[150px]" />
+        <img src="images/logo.png" alt="logo locale" class="w-[100px] lg:w-[150px]" />
       </a>
       <div class="space-x-3 hidden lg:flex">
         <a class="hover:underline uppercase" href="index.html">Beranda</a>
@@ -79,7 +79,7 @@ customElements.define('nav-bar', navBar)
 const templateFooter = document.createElement('template')
 
 templateFooter.innerHTML = `
-    <style> @import "../css/output.css"; </style>
+    <style> @import "css/output.css"; </style>
     <div class="text-center text-base lg:text-xl flex items-center bg-[#eebb4d] h-32 justify-center">
       <p>
         Kami Juga menyediakan penyaluran untuk amal sosial berupa snack atau
