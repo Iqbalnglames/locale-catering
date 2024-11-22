@@ -12,7 +12,11 @@
       class="flex justify-between items-center p-3 bg-[#047580ff] text-white font-bold lg:text-xl"
     >
       <a href="index.html">
-        <img src="public/logo.png" alt="logo locale" class="w-[100px] lg:w-[150px]" />
+        <img
+          src="images/logo.png"
+          alt="logo locale"
+          class="w-[100px] lg:w-[150px]"
+        />
       </a>
       <div class="space-x-3 hidden lg:flex">
         <a class="hover:underline uppercase" href="index.html">Beranda</a>
@@ -26,7 +30,7 @@
       </div>
       <button
         class="space-y-1 rounded border-2 border-white lg:hidden p-1 w-fit"
-        onclick="showMenu()"
+        id="menu-button"
       >
         <div class="w-6 h-[3px] rounded-full bg-white"></div>
         <div class="w-6 h-[3px] rounded-full bg-white"></div>
@@ -35,11 +39,11 @@
     </nav>
     <div
       id="menu-bar"
-      class="hidden flex-col bg-[#047580ff] text-white border-2 border-white rounded-lg"
+      class="lg:hidden hidden w-screen fixed flex-col bg-[#047580ff] text-white border-2 border-white rounded-lg"
     >
       <a
         class="hover:underline uppercase p-3 border-b border-white hover:bg-[#2a6c72] rounded-t-lg"
-        href="#"
+        href="index.html"
         >Beranda</a
       >
       <a
@@ -52,6 +56,13 @@
         href="kontak.html"
         >Kontak</a
       >
+    </div>
+    <div class="text-center text-base lg:text-xl flex items-center bg-[#eebb4d] h-32 justify-center">
+      <p>
+        Kami Juga menyediakan penyaluran untuk amal sosial berupa snack atau
+        rice box, <br />
+        Seperti Jumat Berkah, Snack Panti Asuhan, Minggu Berbagi dll
+      </p>
     </div>
   </body>
 </html>

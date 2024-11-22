@@ -554,6 +554,10 @@ video {
   display: none;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -642,6 +646,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .list-disc {
@@ -777,6 +785,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#eebb4d\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(238 187 77 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[url\(\'\.\.\/images\/background-kontak\.png\'\)\] {
   background-image: url('../images/background-kontak.png');
 }
@@ -878,6 +891,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-bold {
