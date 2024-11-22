@@ -595,10 +595,6 @@ video {
   height: 1rem;
 }
 
-.h-40 {
-  height: 10rem;
-}
-
 .h-52 {
   height: 13rem;
 }
@@ -617,6 +613,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.w-40 {
+  width: 10rem;
 }
 
 .w-52 {
@@ -642,10 +642,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-40 {
-  width: 10rem;
 }
 
 .list-disc {
