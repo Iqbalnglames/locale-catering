@@ -1,7 +1,7 @@
 const templateNav = document.createElement("template");
 
 templateNav.innerHTML = `
- <style> @import "css/output.css"; </style>
+ <style> @import "./css/output.css"; </style>
    <nav
       class="flex justify-between items-center p-3 bg-[#047580ff] text-white font-bold lg:text-xl"
     >
@@ -79,7 +79,7 @@ customElements.define('nav-bar', navBar)
 const templateFooter = document.createElement('template')
 
 templateFooter.innerHTML = `
-    <style> @import "css/output.css"; </style>
+    <style> @import "./css/output.css"; </style>
     <div class="text-center text-base lg:text-xl flex items-center bg-[#eebb4d] h-32 justify-center">
       <p>
         Kami Juga menyediakan penyaluran untuk amal sosial berupa snack atau
